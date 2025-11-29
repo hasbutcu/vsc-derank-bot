@@ -1,0 +1,24 @@
+{
+  "name": "discord-valorant-rooms-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for creating temporary voice channels with Valorant team codes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "valorant",
+    "voice-channels"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "croxydb": "^0.0.26",
+    "discord.js": "^14.12.0",
+    "oxylogger": "^1.1.0",
+    "oxypack": "^1.2.0"
+  }
+}
